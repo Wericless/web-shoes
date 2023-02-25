@@ -10,9 +10,25 @@
 h2 {
     color: rgb(88, 6, 165);
     padding-top: 20px;
+    padding-right: 170px;
 } 
 
 input {
     height: 25px;
     width: 300px;
+}
+
+img {
+    width: 200px;
+    height: 60px;
+    top: auto;
+}
+
+button {
+    height: 40px;
+    width: 310px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
