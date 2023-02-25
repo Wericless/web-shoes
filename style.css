@@ -1,14 +1,20 @@
-#topo {
-    border-top: 50px solid rgb(74, 14, 131);
+.topo {
+    border-top: rgb(92, 42, 138);
+    background-color: rgb(92, 42, 138);
 }
 
-#meio {
+.logo {
+    text-align: left;
+    margin-left: 15%;
+}
+
+.meio {
     text-align: center;
     padding-top: 60px;
 }
 
 h2 {
-    color: rgb(88, 6, 165);
+    color: rgb(92, 42, 138);
     padding-top: 20px;
     padding-right: 170px;
 } 
@@ -27,7 +33,7 @@ img {
 button {
     height: 40px;
     width: 310px;
-    background-color: darkorange;
+    background-color: rgb(252, 172, 67);
     color: white;
     border: none;
     border-radius: 5px;
