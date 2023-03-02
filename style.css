@@ -13,25 +13,21 @@
     margin-top: 90px;
 }
 
-.rodape {
-
-}
 
 h2 {
     font-family: sans-serif;
     color: rgb(92, 42, 138);
-    margin-top: 20px;
-    margin-right: 170px;
+    margin-right: 160px;
 } 
 
 input {
-    height: 25px;
+    height:20px;
     width: 300px;
-    margin: 10px 0 5px 0;
+    margin: 0 0 5px 0;
     border-radius: 5px;
     background-color: rgb(228, 244, 252);
     border: none;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 10px 0;
 }
 
 .input1 {
@@ -53,6 +49,7 @@ img {
 button {
     height: 40px;
     width: 310px;
+    font-weight: bold;
     background-color: rgb(252, 172, 67);
     color: white;
     border: none;
@@ -68,4 +65,34 @@ hr {
     margin-top: 125px;
     width: 70%;
     color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    font-family: sans-serif;
+    color: rgb(92, 42, 138);
+    margin-left: 35%;
+}
+
+.rodape {
+    display: flex;
+}
+
+.p1 {
+    margin-left: 50px;
+    
+}
+
+.duvidas {
+    background-color: rgb(92, 42, 138);
+    width: 150px;
+    height: 30px;
+    margin-left:50px ;
+    font-weight: bold;
+}
+
+.final {
+    display: inline;
+    margin-left: 35%;
 }
