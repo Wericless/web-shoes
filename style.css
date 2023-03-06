@@ -1,6 +1,18 @@
+body {
+    margin: 0;
+}
+
+.cor-roxo {
+    color: #5a2d82;
+}
+
+.cor-cinza {
+    color: #a9a9a9;
+}
+
 .topo {
     border-top: rgb(92, 42, 138);
-    background-color: rgb(92, 42, 138);
+    background-color: #5a2d82;
 }
 
 .logo {
@@ -13,86 +25,107 @@
     margin-top: 90px;
 }
 
-
-h2 {
-    font-family: sans-serif;
-    color: rgb(92, 42, 138);
-    margin-right: 160px;
-} 
-
-input {
-    height:20px;
-    width: 300px;
-    margin: 0 0 5px 0;
-    border-radius: 5px;
-    background-color: rgb(228, 244, 252);
-    border: none;
-    padding: 15px 0 10px 0;
+span.titulo {
+    font-size: 20px;
+    color: #5a2d82;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 180px;
 }
 
 .input1 {
     height: 25px;
     width: 300px;
-    margin: 10px 0 20px 0;
+    margin: 5px 0 15px 0;
     border-radius: 5px;
-    background-color: rgb(228, 244, 252);
+    background-color: #e8f0fd;
     border: none;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 10px 10px;
 }
 
-img {
+img.logo-netshoes {
     width: 200px;
     height: 60px;
     top: auto;
 }
 
-button {
+button.acessar-conta {
     height: 40px;
     width: 310px;
     font-weight: bold;
-    background-color: rgb(252, 172, 67);
+    background-color: #f66c28;
     color: white;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-a{
+a.senha {
     margin-right: 165px;
 }
 
-hr {
-    margin-top: 125px;
-    width: 70%;
-    color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h4 {
-    font-family: sans-serif;
-    color: rgb(92, 42, 138);
-    margin-left: 35%;
+h4.central-relacionamento {
+    color: #5a2d82;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .rodape {
     display: flex;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.p1 {
+.p-rodape {
+    font: 11px;
     margin-left: 50px;
-    
+    color: #a9a9a9;
 }
 
-.duvidas {
-    background-color: rgb(92, 42, 138);
+button.duvidas {
     width: 150px;
     height: 30px;
-    margin-left:50px ;
+    margin-top: 20px;
+    margin-left: 50px;
     font-weight: bold;
+    color: white;
+    background-color: #5a2d82;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .final {
-    display: inline;
-    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+ul.lista {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 5px;
+}
+
+.caixa-de-duvida {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.politica-privac {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.font {
+    font-family: 'Source Sans Pro', sans-serif;
 }

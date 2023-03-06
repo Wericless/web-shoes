@@ -5,44 +5,70 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="icon" type="imagem/png" href="imagens/netshoes-icone.png" />
         <title>Login</title>
     </head>
     <body>
         <div class="topo">
             <div class="logo">
-                <img src="netshoes-logo-5.png" alt="logo" />
+                <img
+                    class="logo-netshoes"
+                    src="imagens/netshoes-logo-5.png"
+                    alt="logo"
+                />
             </div>
         </div>
 
         <div class="meio">
-            <h2>Já sou cliente</h2>
-            <input type placeholder="E-mail, CPF ou CNPJ" /> <br />
-            <input class="input1" type placeholder="Senha" /> <br />
-            <a href="">Esqueci minha senha</a> <br />
-            <button><b>ACESSAR CONTA</b></button>
+            <div>
+                <span class="titulo">Já sou cliente</span>
+            </div>
+            <div>
+                <input class="input1" type placeholder="E-mail, CPF ou CNPJ" />
+            </div>
+            <div>
+                <input class="input1" type placeholder="Senha" />
+            </div>
+            <div>
+                <a class="senha cor-cinza" href="#">Esqueci minha senha</a>
+            </div>
+
+            <button class="acessar-conta">ACESSAR CONTA</button>
         </div>
 
-        <hr />
-
-        <div>
-            <div class="rodape">
-                <h4>
-                    <b
-                        >CENTRAL DE<br />
-                        RELACIONAMENTO</b
-                    >
-                </h4>
-                <p class="p1">
-                    <small
-                        >Preparada para esclarecer<br />
-                        suas dúvidas.</small
-                    >
-                </p>
+        <div class="rodape cor-roxo">
+            <h4 class="central-relacionamento">
+                CENTRAL DE<br />
+                RELACIONAMENTO
+            </h4>
+            <p class="p-rodape cor-cinza">
+                <small
+                    >Preparada para esclarecer<br />
+                    suas dúvidas.</small
+                >
+            </p>
+            <div class="caixa-de-duvida">
                 <button class="duvidas">TIRE SUAS DÚVIDAS</button>
+                <p class="politica-privac cor-cinza">Política de privacidade</p>
             </div>
-            <div class="final">
-                <a href="">Precisa de ajuda?</a>
-            </div>
+        </div>
+        <div class="final">
+            <ul class="lista">
+                <li>
+                    <a href="#" class="cor-cinza font">Precisa de ajuda?</a>
+                </li>
+                <li><img src="imagens/ncard.png" alt="" /></li>
+                <li><img src="imagens/visa.png" alt="" /></li>
+                <li><img src="imagens/master_card.png" alt="" /></li>
+                <li><img src="imagens/american_express.png" alt="" /></li>
+                <li><img src="imagens/o.png" alt="" /></li>
+                <li><img src="imagens/hipercard.png" alt="" /></li>
+                <li><img src="imagens/elo.png" alt="" /></li>
+                <li><img src="imagens/boleto.png" alt="" /></li>
+                <li><img src="imagens/pix.png" alt="" /></li>
+            </ul>
         </div>
     </body>
 </html>
