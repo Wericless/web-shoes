@@ -25,17 +25,33 @@
             <div>
                 <span class="titulo">Já sou cliente</span>
             </div>
-            <div>
-                <input class="input1" type placeholder="E-mail, CPF ou CNPJ" />
-            </div>
-            <div>
-                <input class="input1" type placeholder="Senha" />
-            </div>
-            <div>
-                <a class="senha cor-cinza" href="#">Esqueci minha senha</a>
-            </div>
+            <form id="login-form">
+                <div>
+                    <input
+                        class="geral"
+                        id="email"
+                        type
+                        placeholder="Email, CPF ou CNPJ"
+                        name="Email"
+                    />
+                </div>
+                <div>
+                    <input
+                        id="senha"
+                        class="geral"
+                        type
+                        placeholder="Senha"
+                        name="senha"
+                    />
+                </div>
+                <div>
+                    <a class="senha cor-cinza" href="#">Esqueci minha senha</a>
+                </div>
 
-            <button class="acessar-conta">ACESSAR CONTA</button>
+                <button class="acessar-conta" type="submit">
+                    ACESSAR CONTA
+                </button>
+            </form>
         </div>
 
         <div class="rodape cor-roxo">
