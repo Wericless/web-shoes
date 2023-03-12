@@ -5,10 +5,9 @@ const users = [
 ]
 
 const loginForm = document.getElementById('login-form')
+const loginButton = document.getElementById('login-button')
 
-loginForm.addEventListener('submit', (e) => {
-    e.preventDefault()
-
+loginButton.addEventListener('click', () => {
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
 
