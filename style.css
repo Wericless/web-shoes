@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+.cor-roxo {
+    color: #5a2d82;
+}
+
+.cor-cinza {
+    color: #a9a9a9;
+}
+
+.topo {
+    border-top: rgb(92, 42, 138);
+    background-color: #5a2d82;
+}
+
+.logo {
+    text-align: left;
+    margin-left: 15%;
+}
+
+.meio {
+    text-align: center;
+    margin-top: 90px;
+}
+
+span.titulo {
+    font-size: 20px;
+    color: #5a2d82;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-right: 180px;
+}
+
+input.geral {
+    height: 25px;
+    width: 300px;
+    margin: 5px 0 15px 0;
+    border-radius: 5px;
+    background-color: #e8f0fd;
+    border: none;
+    padding: 10px 0 10px 10px;
+}
+
+img.logo-netshoes {
+    width: 200px;
+    height: 60px;
+    top: auto;
+}
+
+button.acessar-conta {
+    height: 40px;
+    width: 310px;
+    font-weight: bold;
+    background-color: #f66c28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a.senha {
+    margin-right: 165px;
+}
+
+h4.central-relacionamento {
+    color: #5a2d82;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.rodape {
+    display: flex;
+    border-top: 1px solid #e6e6e6;
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-rodape {
+    font: 11px;
+    margin-left: 50px;
+    color: #a9a9a9;
+}
+
+button.duvidas {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #5a2d82;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+ul.lista {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 5px;
+}
+
+.caixa-de-duvida {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.politica-privac {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 50px;
+}
+
+.font {
+    font-family: 'Source Sans Pro', sans-serif;
+}
