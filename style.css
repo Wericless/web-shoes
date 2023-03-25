@@ -59,6 +59,15 @@ button.acessar-conta {
     border-radius: 5px;
     margin-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+
+.acesso:hover {
+    background-color: #9b3b0b;
+
+    transition: 0.5s;
+
+    opacity: 0.7;
 }
 
 a.senha {

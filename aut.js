@@ -1,6 +1,6 @@
 const users = [
     { email: 'santanawericles@gmail.com', senha: '1234567' },
-    { email: 'user2@example.com', senha: 'password2' },
+    { email: 'joannanaftaly@gmail.com', senha: '12345678' },
     { email: 'user3@example.com', senha: 'password3' },
 ]
 
@@ -17,7 +17,7 @@ loginButton.addEventListener('click', () => {
 
     if (authenticatedUser) {
         alert('Login feito com sucesso')
-        // Redirecionar para página restrita
+        window.location.href = 'http://127.0.0.1:5500/pagina-principal.html'
     } else {
         alert('Email ou senha inválida')
     }
