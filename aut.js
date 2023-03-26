@@ -7,7 +7,8 @@ const users = [
 const loginForm = document.getElementById('login-form')
 const loginButton = document.getElementById('login-button')
 
-loginButton.addEventListener('click', () => {
+loginButton.addEventListener('click', (e) => {
+    e.preventDefault()
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
 
