@@ -7,10 +7,19 @@ const users = [
 const loginForm = document.getElementById('login-form')
 const loginButton = document.getElementById('login-button')
 
-loginButton.addEventListener('click', (e) => {
-    e.preventDefault()
+loginButton.addEventListener('click', () => {
     const email = document.getElementById('email').value
     const senha = document.getElementById('senha').value
+
+    if (!email || !senha) {
+        alert('Por favor, preencha todos os campos.')
+        return
+    }
+
+    if (senha.length < 7) {
+        alert('A senha deve ter pelo menos 7 caracteres.')
+        return
+    }
 
     const authenticatedUser = users.find(
         (user) => user.email === email && user.senha === senha
