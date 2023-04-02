@@ -10,6 +10,9 @@ body {
     color: #a9a9a9;
 }
 
+.decoração {
+    text-decoration: none;
+}
 .topo {
     border-top: rgb(92, 42, 138);
     background-color: #5a2d82;
@@ -119,10 +122,11 @@ button.duvidas {
 ul.lista {
     list-style: none;
     display: flex;
+    margin-bottom: 0%;
 }
 
 li {
-    margin: 5px;
+    margin: 10px;
 }
 
 .caixa-de-duvida {
@@ -138,4 +142,96 @@ li {
 
 .font {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Página inicial */
+
+.submit-lente {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-top: 20px;
+}
+
+.submit-line {
+    position: relative;
+    width: 250%;
+}
+
+.submit-line input {
+    width: 100%;
+    height: 30px;
+}
+
+.area-pesquisa {
+    border-radius: 15px;
+    border: none;
+    margin-top: 18px;
+    margin-left: 50px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.parte-inferior-cabecalho {
+    font-family: 'Source Sans Pro Regular', sans-serif;
+    margin: none;
+    display: flex;
+}
+.cep {
+    margin-left: 100px;
+    margin-top: 5px;
+    border-right: #a9a9a9 solid 1px;
+    padding-top: 2px;
+    padding-right: 100px;
+}
+ul.lista-inicial {
+    padding: 0;
+    margin: 0;
+}
+
+img.categorias {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.cor-branca {
+    color: #efe8eb;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.lista-desejos {
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.entrar {
+    margin-top: 30px;
+}
+
+.font-head {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+.carrinho {
+    margin-top: 20px;
+}
+.button-carrinho {
+    background-color: #5a2d82;
+    border: none;
+}
+.cinza-escuro {
+    color: #333333;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.img-promo-magalu {
+    position: absolute;
 }
