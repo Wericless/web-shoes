@@ -186,7 +186,7 @@ li {
 .cep {
     margin-left: 100px;
     margin-top: 5px;
-    border-right: #a9a9a9 solid 1px;
+    border-right: #ccc solid 1px;
     padding-top: 2px;
     padding-right: 100px;
 }
@@ -207,6 +207,7 @@ img.categorias {
 .lista-desejos {
     margin-left: 30%;
     margin-top: 30px;
+    padding-left: 50px;
 }
 .entrar {
     margin-top: 30px;
@@ -234,4 +235,90 @@ img.categorias {
 }
 .img-promo-magalu {
     position: absolute;
+}
+
+.img-promo-leve-mais {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.lista-promo {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+li.lista-promo {
+    margin: 10px;
+}
+
+p.titulo-texto {
+    font-family: netshoes_displaybold, sans-serif;
+    font-weight: 700;
+    color: #5a2d82;
+    text-align: center;
+    margin-top: 30px;
+}
+div.categorias {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.categoria-de-compras {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    margin-left: 35px;
+}
+
+p.categorias-compras {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #333333;
+}
+
+h1.mais-vistos {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    margin: 40px 0 35px 40px;
+}
+
+ul.mais-vistos {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.frete-gratis {
+    color: #10ba78;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.valores {
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.valores-parcelados {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    height: auto;
+    min-height: 21px;
+    padding: 5px 0 0;
+    font-weight: 400;
+}
+
+.no-Pix {
+    font-size: 16px;
+}
+
+span.produtos {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #333333;
 }
