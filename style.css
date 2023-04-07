@@ -322,3 +322,79 @@ span.produtos {
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #333333;
 }
+
+.banner {
+    margin: 40px 0 40px;
+}
+
+footer {
+    background-color: #f4f4f4;
+}
+
+.setor-final {
+    display: flex;
+}
+
+li.titulo {
+    color: #5a2d8d;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    list-style: none;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer a:hover {
+    color: #00aae3;
+    text-decoration: underline;
+}
+
+.tire-suas-duvidas {
+    font-weight: 700;
+    color: #00aae3;
+    border: 2px solid #00aae3;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-align: center;
+}
+footer .tire-suas-duvidas:hover {
+    background-color: #00aae3;
+    color: #f4f4f4;
+}
+
+.redes-sociais {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.cartoes {
+    display: flex;
+    margin: 20px 0 0 15%;
+}
+
+.texto-pequeno {
+    font-size: 10px;
+    padding: 5px 10px;
+    text-align: left;
+    margin-top: 0;
+}
+.app-mobile {
+    margin-top: 50px;
+}
