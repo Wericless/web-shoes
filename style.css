@@ -10,6 +10,9 @@ body {
     color: #a9a9a9;
 }
 
+.decoração {
+    text-decoration: none;
+}
 .topo {
     border-top: rgb(92, 42, 138);
     background-color: #5a2d82;
@@ -59,6 +62,15 @@ button.acessar-conta {
     border-radius: 5px;
     margin-top: 20px;
     font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+
+.acesso:hover {
+    background-color: #9b3b0b;
+
+    transition: 0.5s;
+
+    opacity: 0.7;
 }
 
 a.senha {
@@ -110,10 +122,11 @@ button.duvidas {
 ul.lista {
     list-style: none;
     display: flex;
+    margin-bottom: 0%;
 }
 
 li {
-    margin: 5px;
+    margin: 10px;
 }
 
 .caixa-de-duvida {
@@ -129,4 +142,259 @@ li {
 
 .font {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Página inicial */
+
+.submit-lente {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    border: none;
+    background: transparent;
+    outline: none;
+    margin-top: 20px;
+}
+
+.submit-line {
+    position: relative;
+    width: 250%;
+}
+
+.submit-line input {
+    width: 100%;
+    height: 30px;
+}
+
+.area-pesquisa {
+    border-radius: 15px;
+    border: none;
+    margin-top: 18px;
+    margin-left: 50px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.parte-inferior-cabecalho {
+    font-family: 'Source Sans Pro Regular', sans-serif;
+    margin: none;
+    display: flex;
+}
+.cep {
+    margin-left: 100px;
+    margin-top: 5px;
+    border-right: #ccc solid 1px;
+    padding-top: 2px;
+    padding-right: 100px;
+}
+ul.lista-inicial {
+    padding: 0;
+    margin: 0;
+}
+
+img.categorias {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.cor-branca {
+    color: #efe8eb;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.lista-desejos {
+    margin-left: 30%;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.entrar {
+    margin-top: 30px;
+}
+
+.font-head {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+.carrinho {
+    margin-top: 20px;
+}
+.button-carrinho {
+    background-color: #5a2d82;
+    border: none;
+}
+.cinza-escuro {
+    color: #333333;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.img-promo-magalu {
+    position: absolute;
+}
+
+.img-promo-leve-mais {
+    margin-top: 20px;
+    text-align: center;
+}
+ul.lista-promo {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+li.lista-promo {
+    margin: 10px;
+}
+
+p.titulo-texto {
+    font-family: netshoes_displaybold, sans-serif;
+    font-weight: 700;
+    color: #5a2d82;
+    text-align: center;
+    margin-top: 30px;
+}
+div.categorias {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.categoria-de-compras {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    margin-left: 35px;
+}
+
+p.categorias-compras {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #333333;
+}
+
+h1.mais-vistos {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    margin: 40px 0 35px 40px;
+}
+
+ul.mais-vistos {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.frete-gratis {
+    color: #10ba78;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.valores {
+    color: #333;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.valores-parcelados {
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    height: auto;
+    min-height: 21px;
+    padding: 5px 0 0;
+    font-weight: 400;
+}
+
+.no-Pix {
+    font-size: 16px;
+}
+
+span.produtos {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #333333;
+}
+
+.banner {
+    margin: 40px 0 40px;
+}
+
+footer {
+    background-color: #f4f4f4;
+}
+
+.setor-final {
+    display: flex;
+}
+
+li.titulo {
+    color: #5a2d8d;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    list-style: none;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer a:hover {
+    color: #00aae3;
+    text-decoration: underline;
+}
+
+.tire-suas-duvidas {
+    font-weight: 700;
+    color: #00aae3;
+    border: 2px solid #00aae3;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-align: center;
+}
+footer .tire-suas-duvidas:hover {
+    background-color: #00aae3;
+    color: #f4f4f4;
+}
+
+.redes-sociais {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container {
+    text-align: center;
+}
+
+.cartoes {
+    display: flex;
+    margin: 20px 0 0 15%;
+}
+
+.texto-pequeno {
+    font-size: 10px;
+    padding: 5px 10px;
+    text-align: left;
+    margin-top: 0;
+}
+.app-mobile {
+    margin-top: 50px;
 }
